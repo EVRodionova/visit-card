@@ -1,0 +1,82 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #80d4d8;
+    color: #161d1d;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #80d4d8;
+    border-bottom: 2px solid #80d4d8;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Project Card */
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #80d4d8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.card .btn:hover {
+    background: #66c2c6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #161d1d;
+    color: #fff;
+}
